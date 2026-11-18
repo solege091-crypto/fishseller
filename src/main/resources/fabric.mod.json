@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fishseller",
+  "version": "${version}",
+  "name": "Fish Seller",
+  "description": "Envanter dolunca baliklari otomatik satar.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.fishseller.FishSeller"] },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
